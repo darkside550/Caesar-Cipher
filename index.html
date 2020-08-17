@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="container">Caesar Cipher</h1>
+		<form>
+			<div class="form-group col-sm-3 my-1>">
+				<label for="text">Text: </label>
+				<textarea id="text" class="form-control" placeholder="Your Text here...."></textarea>
+			</div>
+
+			<div class="col-sm-3 my-1">
+				<label for="shift">Shift: </label>
+				<input type="text" name="shift" id="shift" class="form-control sm" placeholder="Enter a number">
+			</div>
+
+				<input type="button" name="Encrypt" class="btn btn-primary mt-3 ml-3" value="Encrypt" onclick="doCrypt(false)">
+				<input type="button" name="Decrypt" class="btn btn-primary mt-3 " value="Decrypt" onclick="doCrypt(true)">
+			
+		</form>
+<script src="script.js"></script>
+</body>
+
+</html>
